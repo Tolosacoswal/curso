@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Matemáticos </title>
+</head>
+<body>
+    <script>
+        let  a, b, suma, resta, multiplicación, division, residuo, potenciación;
+        //declaramos las anteriores variables 
+        //pedimos datos al usuario
+        //si ejecutamos la operacion suma nos genera un error que se debe solucionar de la siguiente manera 
+        /*a= prompt('INGRESE VALOR 1...');
+        b= prompt('INGRESE VALOR 2...');*/
+        //estos valores los debemos cambiar por la siguiente 
+        //parseInt  este nos parsea o nos cambia nuestros numeros a enteros lo que nos soluciona esta parte en la suma 
+        //lo que hace que el simbolo de mas no se use como un concatenador y se convierta en un operador en este caso el de suma 
+        //el resto de operadores no tiene inconveniente alguno 
+        a = parseInt(prompt('INGRESE VALOR1...'));
+        b = parseInt(prompt('INGRESE VALOR2...'));
+
+        //SUMA
+        suma = a + b;
+        //resta
+        resta = a - b;
+        //producto 
+        multiplicación = a * b;
+        //cociente
+        division = a / b;
+        //residuo
+        residuo = a % b;
+        //potenciación
+        potenciación = a ** b;
+
+        document.write( 'la suma es:', suma );
+        document.write('<br>');
+        document.write( 'la diferencia es:', resta );
+        document.write('<br>');
+        document.write( 'el producto es:', multiplicación );
+        document.write('<br>');
+        document.write( 'el cociente es:', division );
+        document.write('<br>');
+        document.write( 'el residuo es:', residuo );
+        document.write('<br>');
+        document.write( 'la potenciación es:', potenciación );
+        document.write('<br>');
+
+        
+
+    </script>
+</body>
+</html>
