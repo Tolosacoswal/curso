@@ -17,7 +17,7 @@ switch (valor) {
         break;
 }*/
 
-let color
+/*let color
 color = prompt('Ingresa tu color:  ROJO/VERDE/AZUL');
 
 switch (color) {
@@ -34,5 +34,25 @@ switch (color) {
     default:
         document.write('no es un color valido');
         break;
-}
+}*/
 
+let ropa
+ ropa = prompt('elige una prenda: camisa/pantalon/chaqueta/camiseta');
+ switch (ropa) {
+    case 'camisa':
+        document.write('elegiste una camisa');
+        break;
+    case 'pantalon':
+        document.write('elegiste un pantalon');
+        break;
+    case 'chaqueta':
+        document.write('elegiste una chaqueta');
+        break;
+    case 'camiseta':
+        document.write('elegiste una camiseta');
+        break
+ 
+    default:
+        document.write('debes elegir, opcion no valida')
+        break;
+ }
