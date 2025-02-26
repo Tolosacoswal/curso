@@ -35,6 +35,7 @@ switch (color) {
         document.write('no es un color valido');
         break;
 }*/
+
  let genero 
  genero = prompt('ingresa tu genero favorito rock/pop/rap/salsa')
 switch (genero) {
@@ -54,3 +55,25 @@ switch (genero) {
             document.write( 'no es una opción valida ')
         break;
 }
+
+
+let ropa
+ ropa = prompt('elige una prenda: camisa/pantalon/chaqueta/camiseta');
+ switch (ropa) {
+    case 'camisa':
+        document.write('elegiste una camisa');
+        break;
+    case 'pantalon':
+        document.write('elegiste un pantalon');
+        break;
+    case 'chaqueta':
+        document.write('elegiste una chaqueta');
+        break;
+    case 'camiseta':
+        document.write('elegiste una camiseta');
+        break
+ 
+    default:
+        document.write('debes elegir, opcion no valida')
+        break;
+ }
