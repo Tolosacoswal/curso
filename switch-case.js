@@ -17,7 +17,7 @@ switch (valor) {
         break;
 }*/
 
-let color
+/*let color
 color = prompt('Ingresa tu color:  ROJO/VERDE/AZUL');
 
 switch (color) {
@@ -34,5 +34,23 @@ switch (color) {
     default:
         document.write('no es un color valido');
         break;
+}*/
+ let genero 
+ genero = prompt('ingresa tu genero favorito rock/pop/rap/salsa')
+switch (genero) {
+    case 'rock':
+        document.write('elegiste ROCK');
+        break;
+    case 'pop':
+        document.write('elegiste POP');
+        break;
+    case 'rap':
+        document.write('elegiste RAP');
+        break;
+    case 'salsa':
+        document.write('elegiste SALSA');
+        break;        
+           default:
+            document.write( 'no es una opción valida ')
+        break;
 }
-

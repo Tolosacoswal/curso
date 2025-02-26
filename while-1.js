@@ -7,14 +7,21 @@ while (f >= 0) {
     
 }
 document.write('FIN ');*/
+ /*let f = 10;
 
-let f = 1;
+ while (f>=0) {
+    document.write('valor es ', f);
+    document.write('<br>');
+    f--;
+    }*/
+let f =1;
 let suma = 0;
 let valor;
 
-while (f <= 5) {
-    valor = parseInt(prompt('ingresa valor '));
+while (f<= 5) {
+    valor = parseInt(prompt('INGRESE VALOR'));
     suma = suma + valor;
     f++;
+    
 }
-document.write("la suma es:", suma, '<br>');
+document.write('la suma es: ', suma, '<br>');
