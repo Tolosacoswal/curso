@@ -21,7 +21,7 @@ for (let f in palabra){
 
 //ejercicio queremos mirar cuantas vocales tiene la palbra murcielago
 
-let palabra ='fbkdnhstñhsnthksamnknmtmtsmlammmththhoitharothoihnbvn';
+let palabra ='murcielagoseanding';
 let vocal = 0;
 for (let f in  palabra) {
     if (palabra [f]== 'a' || 

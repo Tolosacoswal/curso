@@ -1,5 +1,9 @@
 {
     "liveServer.settings.donotShowInfoMsg": true,
+    
+    
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.port": 5500,
     "cSpell.language": "en,es",
     "git.autofetch": true,
     "liveServer.settings.ChromeDebuggingAttachment": false,

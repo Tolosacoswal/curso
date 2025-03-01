@@ -26,9 +26,9 @@ if (edad <= 18) {
         document.write('se requieren datos');
     };*/
 
-    let usuario = prompt("Escribe sí o no:");
+    let usuario = prompt("Escribe si o no:");
 
-    if (usuario.toLowerCase() === "sí") {
+    if (usuario.toLowerCase() === "si") {
       document.write("Confirmado ✅");
     } else {
       document.write("No confirmado ❌");
